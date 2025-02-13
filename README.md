@@ -1,9 +1,12 @@
 # Dog Breed Classifier Project
 
 **Project Goal**  
-This project aims to improve your programming skills using Python. The goal is to apply Python to work with an image classifier and identify dog breeds. Focus on learning Python and working with the classifier rather than creating the classifier itself.
+This project aims to improve your programming skills and understanding of machine learning basics using Python. The goal is to apply Python to work with an image classifier and identify dog breeds. Focus on learning Python and working with the classifier rather than creating the classifier itself.
 
 **Project Description**  
+This script classifies pet images using a pretrained CNN model, extracts pet labels from filenames, compares them with predicted labels, and evaluates model performance on dog classification. It processes images, adjusts results to check if the pet is a dog, calculates classification statistics, and prints a performance summary along with total execution time.
+
+## Scenario
 Your city is hosting a citywide dog show, and you’ve volunteered to help the organizing committee with contestant registration. Every participant that registers must submit an image of their dog along with biographical information. The registration system tags the images based on the biographical information.
 
 However, some people may try to register pets that aren’t actual dogs.
